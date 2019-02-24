@@ -1,0 +1,32 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{DNA sequencing}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Shotgun sequencing}{subsection.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Sequence assembly}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Shortest superstring problem}{subsection.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.3}{NGS introduction and its consequences}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{Data structures in Bioinformatics}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Suffix tree}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Basic definitions}{subsection.2.1}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Suffix trees and exact matching}{subsection.2.1}% 10
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Simple suffix tree construction algorithm}{subsection.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.2}{Suffix array and LCP}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.3}{BWT}{section.2}% 13
+\BOOKMARK [1][-]{section.3}{Algorithm description}{}% 14
+\BOOKMARK [2][-]{subsection.3.1}{Basic concepts}{section.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Auxiliary definitions}{subsection.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.2}{BWT construction: Interleave}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.3}{Sketch of the algorithm}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.4}{Partial BWT computation}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.5}{From the partial BWT to the IX encoding and the LCP array }{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Lists for IXp construction}{subsection.3.5}% 21
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Lists for LCPp construction}{subsection.3.5}% 22
+\BOOKMARK [1][-]{section.4}{Algorithm implementation}{}% 23
+\BOOKMARK [2][-]{subsection.4.1}{FASTA file format}{section.4}% 24
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Klib: parsing input files}{subsection.4.1}% 25
+\BOOKMARK [2][-]{subsection.4.2}{Memory management}{section.4}% 26
+\BOOKMARK [3][-]{subsubsection.4.2.1}{I/O buffering and the value of compression}{subsection.4.2}% 27
+\BOOKMARK [1][-]{section.5}{Conclusive experimentation and possible improvements}{}% 28
+\BOOKMARK [2][-]{subsection.5.1}{Comparison with similar software}{section.5}% 29
+\BOOKMARK [3][-]{subsubsection.5.1.1}{A better compromise between RAM usage and time performance}{subsection.5.1}% 30
+\BOOKMARK [2][-]{subsection.5.2}{Enhancing compression}{section.5}% 31
+\BOOKMARK [2][-]{subsection.5.3}{Variable length reads extension}{section.5}% 32
